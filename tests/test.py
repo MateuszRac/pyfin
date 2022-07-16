@@ -1,4 +1,7 @@
-from pyfin import stooq
+import sys
+sys.path.append('pyfin/')
+
+import pyfin
 
 
-df =stooq('wig20','m')
+df =pyfin.stooq('wig20','m')
